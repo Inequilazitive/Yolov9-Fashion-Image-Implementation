@@ -1,0 +1,10 @@
+batch: 8
+epochs: 100
+img-size: 640
+device: 0
+min-items: 0
+close-mosaic: 15
+data: /content/yolov9/DeepFashion2-1/data.yaml
+weights: /content/weights/yolov9-c.pt
+cfg: models/detect/yolov9-c.yaml
+hyp: /content/yolov9/data/hyps/hyp.scratch-high.yaml
